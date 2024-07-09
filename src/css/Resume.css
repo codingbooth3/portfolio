@@ -1,0 +1,76 @@
+#resumeContainer {
+    margin-inline: 20vw;
+    width: 60vw;
+}
+
+#resumeHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resumeBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rightResumeBody {
+    margin-right: 12.5vw;
+}
+
+#leftResumeHeader {
+    margin: 0;
+    padding: 0;
+}
+
+.whiteResume {
+    background-color: white;
+    padding: 4vh;
+    color: black;
+}
+
+.blackResume {
+    background-color: black;
+    padding: 4vh;
+    color: white;
+}
+
+.whiteLinks {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 2vh;
+}
+
+.cornflower {
+    color: rgb(32, 121, 199)
+}
+
+#educationList {
+    margin: 0;
+    padding: 0;
+}
+
+.resumeEducationClasses {
+    display: flex;
+    flex-direction: column;
+}
+
+.resumeEducationDates {
+    display: flex;
+    justify-content: right;
+}
+
+.resumeLinksContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#skillsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#skillsTitle {
+    display: flex;
+    justify-content: left;
+}

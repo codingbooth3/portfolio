@@ -1,0 +1,12 @@
+#footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    margin-left: 35vw;
+    font-size: 1.4rem;
+    height: 10vh;
+    padding-block: 2.5vh;
+    position: relative;
+    bottom: 0;
+}

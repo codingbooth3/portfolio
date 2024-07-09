@@ -1,0 +1,16 @@
+:root {
+  padding: 0;
+  margin: 0;
+}
+
+#headingSpacer {
+  margin-top: 2vh;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}

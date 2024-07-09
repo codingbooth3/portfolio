@@ -1,0 +1,58 @@
+#homeContainer {
+    height: 120vh;
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#animationHomeContainer {
+    display: flex;
+    margin-left: 20vw;
+}
+
+#animationContainer {
+    font-size: 1.75rem;
+}
+
+#monsterContainer {
+    margin-top: 5vh;
+    height: 55vh;
+    width: 40vw;
+    margin-left: 30vw;
+}
+
+#monsterBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eyesContainer {
+    width: 430px;
+    height: 430px;
+    background-color: black;
+    border-radius: 15px;
+    filter: drop-shadow(0 30px 70px rgb(87, 87, 87));
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.eye {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.pupil {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    top: calc(50% - 7px);
+    left: 7px;
+}
